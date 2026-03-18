@@ -14,7 +14,7 @@
     "series_summary": null,
     "venue": null,
     "location": null,
-    "tv_network": null,
+    "tv_network": "",
     "odds": null,
     "overunder": null,
     "team_name": "Corey Conners",

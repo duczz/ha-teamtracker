@@ -11,7 +11,7 @@ sensor.test_tt_all_test01
     sensor.test_tt_all_test01.date: 2022-09-08T22:45Z     
     sensor.test_tt_all_test01.venue: Citizens Bank Park   
     sensor.test_tt_all_test01.location: Philadelphia, Pennsylvania   
-    sensor.test_tt_all_test01.tv_network: None   
+    sensor.test_tt_all_test01.tv_network: ""   
     sensor.test_tt_all_test01.odds: PHI -140   
     sensor.test_tt_all_test01.overunder: 7   
     sensor.test_tt_all_test01.team_name: Marlins   
@@ -66,7 +66,7 @@ sensor.test_tt_all_test01
     sensor.test_tt_all_test02.date: 2022-09-08T20:10Z     
     sensor.test_tt_all_test02.venue: American Family Field   
     sensor.test_tt_all_test02.location: Milwaukee, Wisconsin   
-    sensor.test_tt_all_test02.tv_network: None   
+    sensor.test_tt_all_test02.tv_network: ""   
     sensor.test_tt_all_test02.odds: None   
     sensor.test_tt_all_test02.overunder: None   
     sensor.test_tt_all_test02.team_name: Brewers   
@@ -121,7 +121,7 @@ sensor.test_tt_all_test01
     sensor.test_tt_all_test03.date: 2022-09-08T18:20Z     
     sensor.test_tt_all_test03.venue: Wrigley Field   
     sensor.test_tt_all_test03.location: Chicago, Illinois   
-    sensor.test_tt_all_test03.tv_network: None   
+    sensor.test_tt_all_test03.tv_network: ""   
     sensor.test_tt_all_test03.odds: None   
     sensor.test_tt_all_test03.overunder: None   
     sensor.test_tt_all_test03.team_name: Reds   
@@ -341,7 +341,7 @@ sensor.test_tt_all_test01
     sensor.test_tt_all_test07.date: 2022-09-09T23:00Z     
     sensor.test_tt_all_test07.venue: Exploria Stadium   
     sensor.test_tt_all_test07.location: Orlando, Florida   
-    sensor.test_tt_all_test07.tv_network: None   
+    sensor.test_tt_all_test07.tv_network: ""   
     sensor.test_tt_all_test07.odds: None   
     sensor.test_tt_all_test07.overunder: None   
     sensor.test_tt_all_test07.team_name: Orlando   
@@ -506,7 +506,7 @@ sensor.test_tt_all_test01
     sensor.test_tt_all_test10.date: 2022-12-21T00:00Z     
     sensor.test_tt_all_test10.venue: Little Caesars Arena   
     sensor.test_tt_all_test10.location: Detroit, MI   
-    sensor.test_tt_all_test10.tv_network: None   
+    sensor.test_tt_all_test10.tv_network: ""   
     sensor.test_tt_all_test10.odds: UTAH -2.5   
     sensor.test_tt_all_test10.overunder: 229   
     sensor.test_tt_all_test10.team_name: Pistons   
@@ -726,7 +726,7 @@ sensor.test_tt_all_test01
     sensor.test_tt_all_test14.date: 2022-10-02T23:00Z     
     sensor.test_tt_all_test14.venue: UBS Arena   
     sensor.test_tt_all_test14.location: Elmont, NY   
-    sensor.test_tt_all_test14.tv_network: None   
+    sensor.test_tt_all_test14.tv_network: ""   
     sensor.test_tt_all_test14.odds: None   
     sensor.test_tt_all_test14.overunder: None   
     sensor.test_tt_all_test14.team_name: Islanders   
@@ -781,7 +781,7 @@ sensor.test_tt_all_test01
     sensor.test_tt_all_test15.date: 2022-10-01T23:00Z     
     sensor.test_tt_all_test15.venue: Nationwide Arena   
     sensor.test_tt_all_test15.location: Columbus, OH   
-    sensor.test_tt_all_test15.tv_network: None   
+    sensor.test_tt_all_test15.tv_network: ""   
     sensor.test_tt_all_test15.odds: None   
     sensor.test_tt_all_test15.overunder: None   
     sensor.test_tt_all_test15.team_name: Blue Jackets   
@@ -836,7 +836,7 @@ sensor.test_tt_all_test01
     sensor.test_tt_all_test16.date: 2022-09-09T00:00Z     
     sensor.test_tt_all_test16.venue: Alaska Airlines Arena   
     sensor.test_tt_all_test16.location: Seattle, Washington   
-    sensor.test_tt_all_test16.tv_network: None   
+    sensor.test_tt_all_test16.tv_network: ""   
     sensor.test_tt_all_test16.odds: None   
     sensor.test_tt_all_test16.overunder: None   
     sensor.test_tt_all_test16.team_name: Waves   
@@ -1001,7 +1001,7 @@ sensor.test_tt_all_test01
     sensor.test_tt_all_test19.date: 2022-12-16T05:00Z     
     sensor.test_tt_all_test19.venue: None   
     sensor.test_tt_all_test19.location: Limoges, France   
-    sensor.test_tt_all_test19.tv_network: None   
+    sensor.test_tt_all_test19.tv_network: ""   
     sensor.test_tt_all_test19.odds: 4   
     sensor.test_tt_all_test19.overunder: None   
     sensor.test_tt_all_test19.team_name: Anhelina Kalinina   
@@ -1056,7 +1056,7 @@ sensor.test_tt_all_test01
     sensor.test_tt_all_test20.date: 2022-12-15T13:20Z     
     sensor.test_tt_all_test20.venue: None   
     sensor.test_tt_all_test20.location: Limoges, France   
-    sensor.test_tt_all_test20.tv_network: None   
+    sensor.test_tt_all_test20.tv_network: ""   
     sensor.test_tt_all_test20.odds: 8   
     sensor.test_tt_all_test20.overunder: None   
     sensor.test_tt_all_test20.team_name: Ana Bogdan   
@@ -1111,7 +1111,7 @@ sensor.test_tt_all_test01
     sensor.test_tt_all_test21.date: 2022-12-12T13:05Z     
     sensor.test_tt_all_test21.venue: None   
     sensor.test_tt_all_test21.location: Limoges, France   
-    sensor.test_tt_all_test21.tv_network: None   
+    sensor.test_tt_all_test21.tv_network: ""   
     sensor.test_tt_all_test21.odds: 32   
     sensor.test_tt_all_test21.overunder: None   
     sensor.test_tt_all_test21.team_name: Marine Partaud   
@@ -1331,7 +1331,7 @@ sensor.test_tt_all_test01
     sensor.test_tt_all_test25.date: 2022-10-13T04:00Z     
     sensor.test_tt_all_test25.venue: None   
     sensor.test_tt_all_test25.location: None   
-    sensor.test_tt_all_test25.tv_network: None   
+    sensor.test_tt_all_test25.tv_network: ""   
     sensor.test_tt_all_test25.odds: None   
     sensor.test_tt_all_test25.overunder: None   
     sensor.test_tt_all_test25.team_name: Corey Conners   
@@ -1386,7 +1386,7 @@ sensor.test_tt_all_test01
     sensor.test_tt_all_teste01.date: None     
     sensor.test_tt_all_teste01.venue: None   
     sensor.test_tt_all_teste01.location: None   
-    sensor.test_tt_all_teste01.tv_network: None   
+    sensor.test_tt_all_teste01.tv_network: ""   
     sensor.test_tt_all_teste01.odds: None   
     sensor.test_tt_all_teste01.overunder: None   
     sensor.test_tt_all_teste01.team_name: None   
@@ -1441,7 +1441,7 @@ sensor.test_tt_all_test01
     sensor.test_tt_all_teste02.date: None     
     sensor.test_tt_all_teste02.venue: None   
     sensor.test_tt_all_teste02.location: None   
-    sensor.test_tt_all_teste02.tv_network: None   
+    sensor.test_tt_all_teste02.tv_network: ""   
     sensor.test_tt_all_teste02.odds: None   
     sensor.test_tt_all_teste02.overunder: None   
     sensor.test_tt_all_teste02.team_name: None   
