@@ -20,6 +20,13 @@
           "league_id": "Liga"
         }
       },
+      "sensor_type": {
+        "title": "Tracking-Modus",
+        "description": "Was möchtest du tracken?",
+        "data": {
+          "sensor_type": "Tracking-Modus"
+        }
+      },
       "search": {
         "title": "Team suchen",
         "description": "Teamnamen eingeben oder leer lassen für manuelle Team-ID-Eingabe.\n\n[Teams auf ESPN durchsuchen]({league_url})",
@@ -52,6 +59,14 @@
           "sport_path": "Sport-Pfad",
           "league_path": "Liga-Pfad"
         }
+      }
+    }
+  },
+  "selector": {
+    "sensor_type": {
+      "options": {
+        "team": "Team verfolgen",
+        "standings": "Liga-Tabelle anzeigen"
       }
     }
   },
