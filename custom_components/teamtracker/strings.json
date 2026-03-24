@@ -47,6 +47,8 @@
         "title": "Custom API Configurator",
         "description": "Enter the 'sport' and 'league' portion of the ESPN API path to use a self-configured API",
         "data": {
+          "conference_id": "Conference Number",
+          "name": "Friendly Name",
           "sport_path": "Sport Path",
           "league_path": "League Path"
         }

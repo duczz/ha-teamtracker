@@ -47,6 +47,8 @@
         "title": "Eigene API-Konfiguration",
         "description": "Den 'sport'- und 'league'-Teil des ESPN-API-Pfads für eine eigene API eingeben.",
         "data": {
+          "conference_id": "Conference-Nummer",
+          "name": "Anzeigename",
           "sport_path": "Sport-Pfad",
           "league_path": "Liga-Pfad"
         }
