@@ -24,7 +24,7 @@
         "title": "Sensor Type",
         "description": "What do you want to track?",
         "data": {
-          "sensor_type": "Sensor Type"
+          "sensor_type": "Tracking mode"
         }
       },
       "search": {
@@ -60,6 +60,14 @@
           "sport_path": "Sport Path",
           "league_path": "League Path"
         }
+      }
+    }
+  },
+  "selector": {
+    "sensor_type": {
+      "options": {
+        "team": "Track a team",
+        "standings": "Track league standings"
       }
     }
   },

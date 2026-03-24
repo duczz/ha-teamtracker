@@ -13,6 +13,7 @@ from homeassistant.const import CONF_NAME
 from homeassistant.core import HomeAssistant, callback
 from homeassistant.helpers import config_validation as cv
 from homeassistant.helpers.aiohttp_client import async_get_clientsession
+from homeassistant.helpers.selector import SelectSelector, SelectSelectorConfig, SelectSelectorMode
 
 from .const import (
     CONF_API_LANGUAGE,
@@ -255,11 +256,15 @@ class TeamTrackerScoresFlowHandler(config_entries.ConfigFlow, domain=DOMAIN):
                 return self._create_standings_entry()
             return await self.async_step_search()
 
-        sensor_type_options = {
-            SENSOR_TYPE_TEAM:      "Track a team",
-            SENSOR_TYPE_STANDINGS: "Track league standings",
-        }
-        schema = vol.Schema({vol.Required(CONF_SENSOR_TYPE, default=SENSOR_TYPE_TEAM): vol.In(sensor_type_options)})
+        schema = vol.Schema({
+            vol.Required(CONF_SENSOR_TYPE, default=SENSOR_TYPE_TEAM): SelectSelector(
+                SelectSelectorConfig(
+                    options=[SENSOR_TYPE_TEAM, SENSOR_TYPE_STANDINGS],
+                    translation_key="sensor_type",
+                    mode=SelectSelectorMode.LIST,
+                )
+            )
+        })
         return self.async_show_form(
             step_id="sensor_type",
             data_schema=schema,
